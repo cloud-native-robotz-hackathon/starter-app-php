@@ -18,5 +18,7 @@
 // Start coding here
 
   forward(5);
+  turnleft(90);
+  turnright(90);
 
 ?>
