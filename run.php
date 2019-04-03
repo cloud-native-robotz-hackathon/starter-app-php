@@ -20,5 +20,6 @@
   forward(5);
   turnleft(90);
   turnright(90);
+  backward(5);
 
 ?>
