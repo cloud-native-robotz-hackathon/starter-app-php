@@ -17,12 +17,12 @@ Turn right in degrees : turnright("degrees");
 <form action="" method="post">
    <input type="submit" name="getpower" value="getpower();"/>
    <input type="submit" name="getdistance" value="getdistance();"/> 
-   <br>
+   <br><br>
    <input type="submit" name="forward" value="forward(5);"/>
-   <br>
+   <br>&nbsp&nbsp&sbsp
    <input type="submit" name="backward" value="backward(5);"/>
    <input type="submit" name="turnleft" value="turnleft(90);"/>
-   <br>
+   <br>&nbsp&nbsp&sbsp
    <input type="submit" name="turnright" value="turnright(90);"/>
 </form>
 
