@@ -20,10 +20,10 @@ Turn right in degrees : turnright("degrees");
    <br><br><br>
    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="submit" name="forward" value="forward(5);"/>
    <br><br>
-   <input type="submit" name="backward" value="backward(5);"/>
    <input type="submit" name="turnleft" value="turnleft(90);"/>
+   <input type="submit" name="turnright" value="turnright(90);"/>
    <br><br>
-   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="submit" name="turnright" value="turnright(90);"/>
+   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="submit" name="backward" value="backward(5);"/>
 </form>
 
 Start your code from run.php :<br><br>
