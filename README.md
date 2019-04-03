@@ -1,6 +1,8 @@
 # Partnerconference Robo Hackathon PHP Module 
 
-Please enter your config in "config.php" 
+Please enter your config in "config.php"
+
+Enter your code in "run.php".
 
 ## Commands:
 ```
