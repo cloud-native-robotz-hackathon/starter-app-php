@@ -5,7 +5,7 @@
 Commands:
 
 Show power in volt    : getpower();  
-Show distance in cm   : getdistance();  
+Show distance in mm   : getdistance();  
 Show status           : getstatus();
 Show remote_status    : getremotestatus();
 Go forward in cm      : forward("length in cm");  
