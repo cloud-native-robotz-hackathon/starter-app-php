@@ -1,7 +1,6 @@
 <?php
 
 // Partnerconference Robo Hackathon PHP Module
-// Autor: Dennis Deitermann <dennis@redhat.com>
 //
 // Please enter your config in "config.php"
 //
