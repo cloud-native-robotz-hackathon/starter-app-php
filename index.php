@@ -69,7 +69,7 @@ Start your code from run.php :<br><br>
     echo " | ".$date;
   }
   if(isset($_POST["run"])) {
-    require("run.php"); 
+    include("run.php"); 
   }
 
 ?>
