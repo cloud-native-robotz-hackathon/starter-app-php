@@ -68,4 +68,5 @@ imagedestroy($image);
 foreach (getallheaders() as $name => $value) {
 header_remove($name);
 }
+ob_end_clean();
 ?>
