@@ -65,5 +65,7 @@ imagefilledpolygon ($image, $punkte, count($punkte)/2, $red);
 header("Content-Type: image/jpeg");
 imagejpeg($image,"",100);
 imagedestroy($image);
-
+foreach (getallheaders() as $name => $value) {
+header_remove($name);
+}
 ?>
