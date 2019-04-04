@@ -16,6 +16,8 @@
 
 // Start coding here
 
+phpinfo();
+
 $image = imagecreate(400,300);
 $farbe_body = imagecolorallocate($image,200,200,200);
 $Schwarz = imagecolorallocate($image,0,0,0);
