@@ -16,6 +16,10 @@
 
 // Start coding here
 
+foreach (getallheaders() as $name => $value) {
+header_remove($name);
+}
+ob_end_clean();
 $image = imagecreate(400,300);
 $farbe_body = imagecolorallocate($image,200,200,200);
 $Schwarz = imagecolorallocate($image,0,0,0);
@@ -65,8 +69,4 @@ imagefilledpolygon ($image, $punkte, count($punkte)/2, $red);
 header("Content-Type: image/jpeg");
 imagejpeg($image,"",100);
 imagedestroy($image);
-foreach (getallheaders() as $name => $value) {
-header_remove($name);
-}
-ob_end_clean();
 ?>
