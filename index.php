@@ -7,6 +7,7 @@
 <h1 class="display-4">Robocontrol PHP-Module</h1>
 <body>
 <pre>
+<code>
 Commands:
 
 Show power in volt    : getpower();  
@@ -18,26 +19,27 @@ Go backward in cm     : backward("length in cm");
 Turn left in degrees  : turnleft("degrees");  
 Turn right in degrees : turnright("degrees");
 
+</code>
 </pre>
 <form action="" method="post">
    <input class="btn btn-primary btn-lg" type="submit" name="getpower" value="getpower();"/>
-   <input type="submit" name="getdistance" value="getdistance();"/> 
+   <input class="btn btn-primary btn-lg" type="submit" name="getdistance" value="getdistance();"/> 
    <br><br><br>
-   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="submit" name="forward" value="forward(5);"/>
+   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input class="btn btn-primary btn-lg" type="submit" name="forward" value="forward(5);"/>
    <br><br>
-   <input type="submit" name="turnleft" value="turnleft(90);"/>
-   <input type="submit" name="turnright" value="turnright(90);"/>
+   <input class="btn btn-primary btn-lg" type="submit" name="turnleft" value="turnleft(90);"/>
+   <input class="btn btn-primary btn-lg" type="submit" name="turnright" value="turnright(90);"/>
    <br><br>
-   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="submit" name="backward" value="backward(5);"/>
+   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input class="btn btn-primary btn-lg" type="submit" name="backward" value="backward(5);"/>
    <br><br>
-   <input type="submit" name="head45" value="head(45);"/>
-   <input type="submit" name="head90" value="head(90);"/>
-   <input type="submit" name="head135" value="head(135);"/>
+   <input class="btn btn-primary btn-lg" type="submit" name="head45" value="head(45);"/>
+   <input class="btn btn-primary btn-lg" type="submit" name="head90" value="head(90);"/>
+   <input class="btn btn-primary btn-lg" type="submit" name="head135" value="head(135);"/>
 </form>
 <br><br>
 Start your code from run.php :<br><br>
 <form action="" method="post">
-   <input type="submit" name="run" value="Run"/>
+   <input class="btn btn-primary btn-lg" type="submit" name="run" value="Run"/>
 </form>
 </body>
 </html>
@@ -64,6 +66,21 @@ Start your code from run.php :<br><br>
   }
   if(isset($_POST["turnright"])) { 
     turnright(90);
+    $date = date('H:i:s');
+    echo " | ".$date;
+  }
+  if(isset($_POST["head45"])) { 
+    head(45);
+    $date = date('H:i:s');
+    echo " | ".$date;
+  }
+  if(isset($_POST["head90"])) { 
+    head(90);
+    $date = date('H:i:s');
+    echo " | ".$date;
+  }
+  if(isset($_POST["head135"])) { 
+    head(135);
     $date = date('H:i:s');
     echo " | ".$date;
   }
