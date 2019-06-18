@@ -88,4 +88,16 @@
                 echo $output;
           }
 
+          function head(string $degrees) {
+                include("config.php");
+                $ch = curl_init();
+                curl_setopt($ch, CURLOPT_URL, $url."/servo/".$degrees."?user_key=".$apikey);
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+                curl_setopt($ch, CURLOPT_POST, 1);
+                curl_setopt($ch, CURLOPT_POSTFIELDS, "degrees".$degrees);
+                $output = curl_exec($ch);
+                curl_close($ch);
+                echo $output;
+          }
+
 ?>
