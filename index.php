@@ -30,7 +30,7 @@ Turn head between 0-180 degrees : head("0-180 degrees");
    <th><input class="btn btn-lg btn-block btn-primary" type="submit" name="getdistance" value="getdistance();"/></th> 
 </tr>
 <tr>
-   <th><input class="btn btn-lg btn-block btn-primary" type="submit" name="turnleft" value="&#8592;<br>turnleft(90);"/></th>
+   <th><input class="btn btn-lg btn-block btn-primary" type="submit" name="turnleft" value="&#8592;&#10;turnleft(90);"/></th>
    <th><input class="btn btn-lg btn-block btn-primary" type="submit" name="backward" value="backward(5);"/></th>
    <th><input class="btn btn-lg btn-block btn-primary" type="submit" name="turnright" value="turnright(90);"/></th>
 </tr>   
