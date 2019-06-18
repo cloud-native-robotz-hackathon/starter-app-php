@@ -25,7 +25,7 @@ Turn head between 0-180 degrees : head("0-180 degrees");
 <table>
 <form action="" method="post">
 <tr>
-   <th><input class="btn btn-lg btn-block btn-primary" type="submit" name="getpower" value="Volt&#10;getpower();"/></th>
+   <th><input class="btn btn-lg btn-block btn-primary" type="submit" name="getpower" value="&#9889;&#10;getpower();"/></th>
    <th><input class="btn btn-lg btn-block btn-primary" type="submit" name="forward" value="&#8593;&#10;forward(5);"/></th>
    <th><input class="btn btn-lg btn-block btn-primary" type="submit" name="getdistance" value="&#8616;&#10;getdistance();"/></th> 
 </tr>
@@ -40,9 +40,9 @@ Turn head between 0-180 degrees : head("0-180 degrees");
    <th><input class="btn btn-lg btn-block btn-primary" type="submit" name="head135" value="&#8599;&#10;head(135);"/></th>
 </tr>
 <tr>
-   <th> </th>
-   <th> </th>
-   <th> </th>
+   <th>##############################</th>
+   <th>##############################</th>
+   <th>##############################</th>
 </tr>
    <th>Start your code from run.php:</th>
    <th><input class="btn btn-primary btn-lg" type="submit" name="run" value="Run"/></th>
