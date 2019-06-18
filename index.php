@@ -11,8 +11,8 @@
    echo '<h4>Team '.$apikey.'</h4>';
 ?>
 <body>
-   <br>
-<table class="table table-sm">
+   <br><br>
+<table>
 <tr>
    <th><b>Commands :</b></th>
    <th> </th>
