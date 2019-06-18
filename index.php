@@ -40,12 +40,12 @@ Turn head between 0-180 degrees : head("0-180 degrees");
    <th><input class="btn btn-lg btn-block btn-primary" type="submit" name="head135" value="&#8599;&#10;head(135);"/></th>
 </tr>
 <tr>
-   <th>##############################</th>
-   <th>##############################</th>
-   <th>##############################</th>
+   <th>###########################</th>
+   <th>###########################</th>
+   <th>###########################</th>
 </tr>
    <th>Start your code from run.php:</th>
-   <th><input class="btn btn-primary btn-lg" type="submit" name="run" value="Run"/></th>
+   <th><input class="btn btn-lg btn-block btn-primary" type="submit" name="run" value="&#x23FB;&#10;Run"/></th>
    <th> </th>
 <tr>
    
