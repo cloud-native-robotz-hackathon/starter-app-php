@@ -12,14 +12,10 @@
 ?>
 <body>
    <br>
-<table class="table table-striped table-sm">
+<table class="table table-hover">
 <tr>
-   <th>Commands :</th>
+   <th><b>Commands :</b></th>
    <th> </th>
-</tr>
-<tr>
-   <th>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</th>
-   <th>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</th>
 </tr> 
 <tr>
            <th>Show power in volt</th>
