@@ -71,9 +71,9 @@
    <th><input class="btn btn-lg btn-block btn-primary" type="submit" name="turnright" value="&#8594;&#10;turnright(90);"/></th>
 </tr>   
 <tr>
-   <th><input class="btn btn-lg btn-block btn-primary" type="submit" name="head45" value="&#8598;&#10;head(45);"/></th> 
-   <th><input class="btn btn-lg btn-block btn-primary" type="submit" name="head90" value="&#8593;&#10;head(90);"/></th>
-   <th><input class="btn btn-lg btn-block btn-primary" type="submit" name="head135" value="&#8599;&#10;head(135);"/></th>
+   <th><input class="btn btn-lg btn-block btn-warning" type="submit" name="head45" value="&#8598;&#10;head(45);"/></th> 
+   <th><input class="btn btn-lg btn-block btn-warning" type="submit" name="head90" value="&#8593;&#10;head(90);"/></th>
+   <th><input class="btn btn-lg btn-block btn-warning" type="submit" name="head135" value="&#8599;&#10;head(135);"/></th>
 </tr>
 <tr>
    <th>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</th>
