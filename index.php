@@ -8,7 +8,10 @@
 ?>
 </head>
 <center>
-<h1 class="display-4">Robocontrol PHP-Module</h1>
+   <?php
+   include("config.php");
+   echo '<h1 class="display-4">Team '.$apikey.' - PHP Robocontrol</h1>';
+?>
 <body>
    <br><h5>Commands</h5>
 <table>
