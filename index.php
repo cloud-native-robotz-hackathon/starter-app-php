@@ -7,7 +7,7 @@
 <h1 class="display-4">Robocontrol PHP-Module</h1>
 <?php
    include("config.php");
-   echo '<h2 class="display-4">Team $apikey</h2>';
+   echo '<h2 class="display-4">Team '.$apikey.'</h2>';
 ?>
 <body>
 <pre>
