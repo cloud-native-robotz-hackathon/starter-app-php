@@ -61,9 +61,9 @@
    <th>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</th>
 </tr>
 <tr>
-   <th><input class="btn btn-lg btn-block btn-primary" type="submit" name="getpower" value="&#9889;&#10;getpower();"/></th>
+   <th><input class="btn btn-lg btn-block btn-info" type="submit" name="getpower" value="&#9889;&#10;getpower();"/></th>
    <th><input class="btn btn-lg btn-block btn-primary" type="submit" name="forward" value="&#8593;&#10;forward(5);"/></th>
-   <th><input class="btn btn-lg btn-block btn-primary" type="submit" name="getdistance" value="&#8616;&#10;getdistance();"/></th> 
+   <th><input class="btn btn-lg btn-block btn-info" type="submit" name="getdistance" value="&#8616;&#10;getdistance();"/></th> 
 </tr>
 <tr>
    <th><input class="btn btn-lg btn-block btn-primary" type="submit" name="turnleft" value="&#8592;&#10;turnleft(90);"/></th>
@@ -82,7 +82,7 @@
 </tr>
 <tr>
    <th>Start your code from run.php:</th>
-   <th><input class="btn btn-lg btn-block btn-primary" type="submit" name="run" value="&#x23FB;&#10;Run"/></th>
+   <th><input class="btn btn-lg btn-block btn-success" type="submit" name="run" value="&#x23FB;&#10;Run"/></th>
    <th> </th>   
 </tr>
 <tr>
