@@ -10,32 +10,37 @@
 <code>
 Commands:
 
-Show power in volt    : getpower();  
-Show distance in mm   : getdistance();  
-Show status           : getstatus();
-Show remote_status    : getremotestatus();
-Go forward in cm      : forward("length in cm");  
-Go backward in cm     : backward("length in cm");  
-Turn left in degrees  : turnleft("degrees");  
-Turn right in degrees : turnright("degrees");
+Show power in volt              : getpower();  
+Show distance in mm             : getdistance();  
+Show status                     : getstatus();
+Show remote_status              : getremotestatus();
+Go forward in cm                : forward("length in cm");  
+Go backward in cm               : backward("length in cm");  
+Turn left in degrees            : turnleft("degrees");  
+Turn right in degrees           : turnright("degrees");
+Turn head between 0-180 degrees : head("0-180 degrees");
 
 </code>
 </pre>
+<table>
 <form action="" method="post">
-   <input class="btn btn-primary btn-lg" type="submit" name="getpower" value="getpower();"/>
-   <input class="btn btn-primary btn-lg" type="submit" name="getdistance" value="getdistance();"/> 
-   <br><br><br>
-   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input class="btn btn-primary btn-lg" type="submit" name="forward" value="forward(5);"/>
-   <br><br>
-   <input class="btn btn-primary btn-lg" type="submit" name="turnleft" value="turnleft(90);"/>
-   <input class="btn btn-primary btn-lg" type="submit" name="turnright" value="turnright(90);"/>
-   <br><br>
-   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input class="btn btn-primary btn-lg" type="submit" name="backward" value="backward(5);"/>
-   <br><br>
-   <input class="btn btn-primary btn-lg" type="submit" name="head45" value="head(45);"/>
-   <input class="btn btn-primary btn-lg" type="submit" name="head90" value="head(90);"/>
-   <input class="btn btn-primary btn-lg" type="submit" name="head135" value="head(135);"/>
+<tr>
+   <th><input class="btn btn-primary btn-lg" type="submit" name="getpower" value="getpower();"/></th>
+   <th><input class="btn btn-primary btn-lg" type="submit" name="forward" value="forward(5);"/></th>
+   <th><input class="btn btn-primary btn-lg" type="submit" name="getdistance" value="getdistance();"/></th> 
+</tr>
+<tr>
+   <th><input class="btn btn-primary btn-lg" type="submit" name="turnleft" value="turnleft(90);"/></th>
+   <th><input class="btn btn-primary btn-lg" type="submit" name="head90" value="head(90);"/></th>
+   <th><input class="btn btn-primary btn-lg" type="submit" name="turnright" value="turnright(90);"/></th>
+</tr>   
+<tr>
+   <th><input class="btn btn-primary btn-lg" type="submit" name="backward" value="backward(5);"/></th>
+   <th><input class="btn btn-primary btn-lg" type="submit" name="head45" value="head(45);"/></th>
+   <th><input class="btn btn-primary btn-lg" type="submit" name="head135" value="head(135);"/></th>
+</tr>
 </form>
+</table>
 <br><br>
 Start your code from run.php :<br><br>
 <form action="" method="post">
