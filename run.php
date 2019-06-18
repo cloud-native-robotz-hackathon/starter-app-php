@@ -17,5 +17,6 @@
 // Start coding here
 
   forward(5);
+  backward(5);
 
 ?>
