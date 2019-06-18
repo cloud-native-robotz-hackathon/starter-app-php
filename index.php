@@ -14,7 +14,7 @@
    <br><br>
 <table>
 <tr>
-   <th><b>Commands :</b></th>
+   <th><h5>Commands :</h5></th>
    <th> </th>
 </tr> 
 <tr>
