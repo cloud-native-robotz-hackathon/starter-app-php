@@ -11,7 +11,7 @@
    echo '<h4>Team '.$apikey.'</h4>';
 ?>
 <body>
-   <br><h5>Commands :</h5>
+   <br><h5>Commands</h5>
 <table>
 <tr>
            <th>Show power in volt</th>
