@@ -11,43 +11,47 @@
    echo '<h4>Team '.$apikey.'</h4>';
 ?>
 <body>
-Commands:
 <table>
 <tr>
+   <th>Commands :</th>
+   <th> </th>
+   <th> </th>
+</tr>
+<tr>
            <th>Show power in volt</th>
-           <th>getpower();</th>
+           <th>: getpower();</th>
 </tr>
 <tr>
            <th>Show distance in mm</th>
-           <th>getdistance();</th>
+           <th>: getdistance();</th>
 </tr>
 <tr>
            <th>Show status</th>
-           <th>getstatus();</th>
+           <th>: getstatus();</th>
 </tr>
 <tr>
            <th>Show remote_status</th>
-           <th>getremotestatus();</th>
+           <th>: getremotestatus();</th>
 </tr>
 <tr>
            <th>Go forward in cm</th>
-           <th>forward("length in cm");</th>
+           <th>: forward("length in cm");</th>
 </tr>
 <tr>
            <th>Go backward in cm</th>
-           <th>backward("length in cm");</th>
+           <th>: backward("length in cm");</th>
 </tr>
 <tr>
            <th>Turn left in degrees</th>
-           <th>turnleft("degrees");</th>
+           <th>: turnleft("degrees");</th>
 </tr>
 <tr>
            <th>Turn right in degrees</th>
-           <th>turnright("degrees");</th>
+           <th>: turnright("degrees");</th>
 </tr>
 <tr>
            <th>Turn head between 0-180 degrees</th>
-           <th>head("0-180 degrees");</th>
+           <th>: head("0-180 degrees");</th>
 </tr>
 </table>
 <table>
