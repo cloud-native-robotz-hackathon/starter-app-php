@@ -12,7 +12,7 @@
 ?>
 <body>
    <br>
-<table class="table table-hover">
+<table class="table table-sm">
 <tr>
    <th><b>Commands :</b></th>
    <th> </th>
