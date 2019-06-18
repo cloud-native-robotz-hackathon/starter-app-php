@@ -1,6 +1,10 @@
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!DOCTYPE HTML>
 <html>
-<h1>Robocontrol PHP-Module</h1>
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <title>Robocontrol PHP-Module</title>
+</head>
+<h1 class="display-4">Robocontrol PHP-Module</h1>
 <body>
 <pre>
 Commands:
@@ -16,7 +20,7 @@ Turn right in degrees : turnright("degrees");
 
 </pre>
 <form action="" method="post">
-   <input type="submit" name="getpower" value="getpower();"/>
+   <input class="btn btn-lg btn-block btn-primary" type="button" name="getpower" value="getpower();"/>
    <input type="submit" name="getdistance" value="getdistance();"/> 
    <br><br><br>
    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="submit" name="forward" value="forward(5);"/>
@@ -25,6 +29,10 @@ Turn right in degrees : turnright("degrees");
    <input type="submit" name="turnright" value="turnright(90);"/>
    <br><br>
    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="submit" name="backward" value="backward(5);"/>
+   <br><br>
+   <input type="submit" name="head45" value="head(45);"/>
+   <input type="submit" name="head90" value="head(90);"/>
+   <input type="submit" name="head135" value="head(135);"/>
 </form>
 <br><br>
 Start your code from run.php :<br><br>
