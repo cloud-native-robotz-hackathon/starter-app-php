@@ -11,12 +11,8 @@
    echo '<h4>Team '.$apikey.'</h4>';
 ?>
 <body>
-   <br><br>
+   <br><h5>Commands :</h5>
 <table>
-<tr>
-   <th><b><h5>Commands :</h5></b></th>
-   <th> </th>
-</tr> 
 <tr>
            <th>Show power in volt</th>
            <th>: getpower();</th>
@@ -54,6 +50,7 @@
            <th>: head("0-180 degrees");</th>
 </tr>
 </table>
+   <br>
 <table>
 <form action="" method="post">
 <tr>
