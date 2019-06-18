@@ -2,14 +2,13 @@
 <html>
 <head>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-   <title>Robocontrol PHP-Module</title>
+   <?php
+   include("config.php");
+   echo '<title>Team '.$apikey.' - PHP Robocontrol</title>';
+?>
 </head>
 <center>
 <h1 class="display-4">Robocontrol PHP-Module</h1>
-<?php
-   include("config.php");
-   echo '<h4>Team '.$apikey.'</h4>';
-?>
 <body>
    <br><h5>Commands</h5>
 <table>
