@@ -5,28 +5,51 @@
    <title>Robocontrol PHP-Module</title>
 </head>
 <center>
-<h1 class="display-4">Robocontrol PHP-Module</h1>
+<h1 class="display-4>Robocontrol PHP-Module</h1>
 <?php
    include("config.php");
-   echo '<h4 class="display-4">Team '.$apikey.'</h4>';
+   echo '<h4>Team '.$apikey.'</h4>';
 ?>
 <body>
-<pre>
-<code>
 Commands:
-
-Show power in volt              : getpower();  
-Show distance in mm             : getdistance();  
-Show status                     : getstatus();
-Show remote_status              : getremotestatus();
-Go forward in cm                : forward("length in cm");  
-Go backward in cm               : backward("length in cm");  
-Turn left in degrees            : turnleft("degrees");  
-Turn right in degrees           : turnright("degrees");
-Turn head between 0-180 degrees : head("0-180 degrees");
-
-</code>
-</pre>
+<table>
+<tr>
+           <th>Show power in volt</th>
+           <th>getpower();</th>
+</tr>
+<tr>
+           <th>Show distance in mm</th>
+           <th>getdistance();</th>
+</tr>
+<tr>
+           <th>Show status</th>
+           <th>getstatus();</th>
+</tr>
+<tr>
+           <th>Show remote_status</th>
+           <th>getremotestatus();</th>
+</tr>
+<tr>
+           <th>Go forward in cm</th>
+           <th>forward("length in cm");</th>
+</tr>
+<tr>
+           <th>Go backward in cm</th>
+           <th>backward("length in cm");</th>
+</tr>
+<tr>
+           <th>Turn left in degrees</th>
+           <th>turnleft("degrees");</th>
+</tr>
+<tr>
+           <th>Turn right in degrees</th>
+           <th>turnright("degrees");</th>
+</tr>
+<tr>
+           <th>Turn head between 0-180 degrees</th>
+           <th>head("0-180 degrees");</th>
+</tr>
+</table>
 <table>
 <form action="" method="post">
 <tr>
@@ -124,4 +147,4 @@ Turn head between 0-180 degrees : head("0-180 degrees");
   }
 
 ?>
-   </center>
+ </center>
