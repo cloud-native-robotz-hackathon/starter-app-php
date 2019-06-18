@@ -25,19 +25,19 @@ Turn head between 0-180 degrees : head("0-180 degrees");
 <table>
 <form action="" method="post">
 <tr>
-   <th><input class="btn btn-primary btn-lg" type="submit" name="getpower" value="getpower();"/></th>
-   <th><input class="btn btn-primary btn-lg" type="submit" name="forward" value="forward(5);"/></th>
-   <th><input class="btn btn-primary btn-lg" type="submit" name="getdistance" value="getdistance();"/></th> 
+   <th><input class="btn btn-lg btn-block btn-primary" type="submit" name="getpower" value="getpower();"/></th>
+   <th><input class="btn btn-lg btn-block btn-primary" type="submit" name="forward" value="forward(5);"/></th>
+   <th><input class="btn btn-lg btn-block btn-primary" type="submit" name="getdistance" value="getdistance();"/></th> 
 </tr>
 <tr>
-   <th><input class="btn btn-primary btn-lg" type="submit" name="turnleft" value="turnleft(90);"/></th>
-   <th><input class="btn btn-primary btn-lg" type="submit" name="head90" value="head(90);"/></th>
-   <th><input class="btn btn-primary btn-lg" type="submit" name="turnright" value="turnright(90);"/></th>
+   <th><input class="btn btn-lg btn-block btn-primary" type="submit" name="turnleft" value="turnleft(90);"/></th>
+   <th><input class="btn btn-lg btn-block btn-primary" type="submit" name="head90" value="head(90);"/></th>
+   <th><input class="btn btn-lg btn-block btn-primary" type="submit" name="turnright" value="turnright(90);"/></th>
 </tr>   
 <tr>
-   <th><input class="btn btn-primary btn-lg" type="submit" name="backward" value="backward(5);"/></th>
-   <th><input class="btn btn-primary btn-lg" type="submit" name="head45" value="head(45);"/></th>
-   <th><input class="btn btn-primary btn-lg" type="submit" name="head135" value="head(135);"/></th>
+   <th><input class="btn btn-lg btn-block btn-primary" type="submit" name="head45" value="head(45);"/></th>
+   <th><input class="btn btn-lg btn-block btn-primary" type="submit" name="backward" value="backward(5);"/></th>
+   <th><input class="btn btn-lg btn-block btn-primary" type="submit" name="head135" value="head(135);"/></th>
 </tr>
 </form>
 </table>
