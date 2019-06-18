@@ -5,14 +5,14 @@
    <?php
    include("config.php");
    $team = strtoupper($apikey);
-   echo '<title>TEAM '.$team.' - PHP ROBOCONTROL</title>';
+   echo '<title>TEAM '.$team.' - PHP Robocontrol</title>';
 ?>
 </head>
 <center>
    <?php
    include("config.php");
    $team = strtoupper($apikey);
-   echo '<h1 class="display-4">TEAM '.$team.' - PHP ROBOCONTROL</h1>';
+   echo '<h1 class="display-4">TEAM '.$team.' - PHP Robocontrol</h1>';
 ?>
 <body>
    <br><h5>Commands</h5>
