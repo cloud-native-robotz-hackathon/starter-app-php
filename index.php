@@ -4,15 +4,13 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
    <?php
    include("config.php");
-   $team = strtoupper($apikey);
-   echo '<title>TEAM '.$team.' - PHP Robocontrol</title>';
+   echo '<title>Team '.$apikey.' - PHP Robocontrol</title>';
 ?>
 </head>
 <center>
    <?php
    include("config.php");
-   $team = strtoupper($apikey);
-   echo '<h1 class="display-4">TEAM '.$team.' - PHP Robocontrol</h1>';
+   echo '<h1 class="display-4">Team '.$apikey.' - PHP Robocontrol</h1>';
 ?>
 <body>
    <br><h5>Commands</h5>
