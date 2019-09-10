@@ -8,6 +8,7 @@
                 $output = curl_exec($ch);
                 curl_close($ch);
                 echo $output;
+                return($output);
           }
 
           function getdistance() {
@@ -18,6 +19,7 @@
                 $output = curl_exec($ch);
                 curl_close($ch);
                 echo $output;
+                return($output);
           }
 
           function getstatus() {
@@ -28,6 +30,7 @@
                 $output = curl_exec($ch);
                 curl_close($ch);
                 echo $output;
+                return($output);
           }
 
           function getremotestatus() {
@@ -38,6 +41,7 @@
                 $output = curl_exec($ch);
                 curl_close($ch);
                 echo $output;
+                return($output);
           }
 
           function forward(string $length) {
@@ -50,6 +54,7 @@
                 $output = curl_exec($ch);
                 curl_close($ch);
                 echo $output;
+                return($output);
           }
 
           function backward(string $length) {
@@ -62,6 +67,7 @@
                 $output = curl_exec($ch);
                 curl_close($ch);
                 echo $output;
+                return($output);
           }
 
           function turnright(string $degrees) {
@@ -74,6 +80,7 @@
                 $output = curl_exec($ch);
                 curl_close($ch);
                 echo $output;
+                return($output);
           }
 
           function turnleft(string $degrees) {
@@ -85,7 +92,8 @@
                 curl_setopt($ch, CURLOPT_POSTFIELDS, "degrees".$degrees);
                 $output = curl_exec($ch);
                 curl_close($ch);
-                echo $output;
+                echo $output;    
+                return($output);
           }
 
           function head(string $degrees) {
@@ -97,7 +105,8 @@
                 curl_setopt($ch, CURLOPT_POSTFIELDS, "degrees".$degrees);
                 $output = curl_exec($ch);
                 curl_close($ch);
-                echo $output;
+                echo $output;    
+                return($output);
           }
 
 ?>
